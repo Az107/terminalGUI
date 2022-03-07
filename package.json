@@ -1,0 +1,19 @@
+{
+  "name": "terminalgui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "scripts": {
+    "start": "node build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Albruiz",
+  "license": "MIT",
+  "dependencies": {
+    "clirender": "file:../CLIrenderer",
+    "clirenderer": "file:../CLIrenderer"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.21"
+  }
+}
